@@ -71,6 +71,11 @@ public class ButtonArea {
                 //Hintergrundfarbe wiederherstellen
                 setButtonBG(bgcolor);
             }
+
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                new PopupArea();
+            }
         });
     }
      private void setButtonBG(Color color){

@@ -47,7 +47,7 @@ public class JavaSwingElemente extends JFrame {
         TextArea ta=new TextArea(mainPanel);
         CheckBoxArea cba=new CheckBoxArea(mainPanel, "Auswählen");
         ListArea la=new ListArea(mainPanel);
-        
+        Menu m = new Menu(mainPanel);
         //show main window
         mainFrame.setVisible(true);
         

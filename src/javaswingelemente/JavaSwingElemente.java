@@ -52,6 +52,8 @@ public class JavaSwingElemente extends JFrame {
         mainFrame.setVisible(true);
         
         //mainFrame.pack();
+
+        //TODO Lukas Kommentar entfernen
     }
     
 }

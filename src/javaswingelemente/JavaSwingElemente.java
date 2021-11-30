@@ -39,7 +39,8 @@ public class JavaSwingElemente extends JFrame {
         
         //Das mainPanel dem mainFrame zuweisen
         mainFrame.add(mainPanel);
-        
+
+        ComboBoxArea cb = new ComboBoxArea(mainPanel);
         //GUI Elemte hizufügen
         ButtonArea ba=new ButtonArea(mainPanel,"Ich bin ein Button");
         
